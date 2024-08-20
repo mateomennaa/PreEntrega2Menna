@@ -1,0 +1,220 @@
+.logo {
+    width: 90px;
+    height: auto;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+  
+  .custom-nav .nav-link {
+    font-size: 1.2rem;
+    margin-right: 100px;
+  }
+  
+  .custom-nav .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  .imagen-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .fotoperro {
+    max-width: 100%;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+  }
+  
+  .form-contenedor {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-contenedor label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-contenedor input[type="text"], .form-contenedor input[type="number"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-contenedor button[type="submit"] {
+    background-color: #4CAF50; /* verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-contenedor button[type="submit"]:hover {
+    background-color: #3e8e41; /* verde oscuro */
+  }
+  
+  .form-contenedor {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-contenedor label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-contenedor input[type="text"], .form-contenedor input[type="number"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-contenedor button[type="submit"] {
+    background-color: #4CAF50; /* verde */
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-contenedor button[type="submit"]:hover {
+    background-color: #394539;
+  }
+  
+  .busqueda-contenedor {
+    margin-top: 20px;
+  }
+  
+  .busqueda-contenedor label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .busqueda-contenedor input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .busqueda-contenedor button[type="button"] {
+    background-color: #337ab7; /* azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .busqueda-contenedor button[type="button"]:hover {
+    background-color: #394539;
+  }
+  
+  .busqueda-contenedor #buscarPerro {
+    background-color: #3e8e41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .busqueda-contenedor #buscarPerro:hover {
+    background-color: #394539;
+  }
+  
+  .busqueda-contenedor #limpiarRegistro {
+    background-color: #3e8e41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .busqueda-contenedor #limpiarRegistro:hover {
+    background-color: #394539;
+  }
+  .table-conversion {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-conversion th, .table-conversion td {
+    border: 1px solid #ced4da;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table-conversion th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table-conversion tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer .social-icons a {
+    font-size: 1.7rem;
+    color: #000;
+    margin: 0 15px;
+  }
+  
+  footer .social-icons a:hover {
+    color: #555;
+  }
+  
+  footer .textofooter {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000;
+  }

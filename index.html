@@ -3,13 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda Preentrega</title>
+    <title>tercera Preentrega</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-<h1>Segunda Preentrega</h1>
-<h3>Mateo Menna</h3>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="./assets/logo.png" alt="logo de BioCalculo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav custom-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Perros</a>
+                        <a class="nav-link" href="#">Más animales</a>
+                        <a class="nav-link" href="#">Sobre nosotros</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <h1>Calculadora de la edad de los perros a humanos</h1>
+    <div class="imagen-contenedor">
+        <img class="fotoperro" src="./assets/perros.avif" alt="foto de perro con calculadora">
+    </div>
+    <div class="form-contenedor">
+        <form id="formularioPerro" class="form-elegante">
+            <label for="nombre">Nombre del perro:</label>
+            <input type="text" id="nombre" required><br><br>
+            <label for="edad">Edad del perro (en años):</label>
+            <input type="number" id="edad" required><br><br>
+            <button type="submit">Calcular Edad Humana</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+        <div class="busqueda-contenedor">
+            <label for="buscarPerroNombre">Buscar perro por nombre:</label>
+            <input type="text" id="buscarPerroNombre" placeholder="Ingresa el nombre del perro">
+            <button id="buscarPerro">Buscar Perro</button>
+            <button id="limpiarRegistro">Limpiar Registro</button>
+        </div>
+    </div>
+    <h2>Tabla de Conversión de Edad de Perros a Humanos</h2>
+<table class="table-conversion">
+    <thead>
+        <tr>
+            <th>Años del Perro</th>
+            <th>Años Humanos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>110</td>
+        </tr>
+    </tbody>
+</table>
+    <footer>
+        <hr>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="textofooter">&copy; 2024 BioCalculo-Todos los derechos reservados.</p>
+    </footer>
 
-<script src="./js/main.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>   
 </body>
 </html>
